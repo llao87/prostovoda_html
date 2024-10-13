@@ -90,7 +90,7 @@ gulp.task('export', async function() {
 
 gulp.task('watch', async function() {
 	gulp.watch('src/pug/**/*.pug', gulp.parallel('pug'));
-	gulp.watch('src/pug-parts/**/*.pug', gulp.parallel('pug'));
+	gulp.watch('src/pug/parts/**/*.pug', gulp.parallel('pug'));
     gulp.watch('src/scss/**/*.scss', gulp.parallel('scss'));
     gulp.watch('src/*.html', gulp.parallel('html'));
     gulp.watch('src/js/*.js', gulp.parallel('script'));

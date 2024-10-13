@@ -1,0 +1,74 @@
+.about-water {
+    padding: 10rem 0;
+    min-height: 78rem;
+    overflow: hidden;
+    position: relative;
+
+    .about-water-bg {
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        background-position: left bottom;
+        top: 0;
+        left: 0;
+        opacity: .7;
+    }
+
+    .container {
+        .columns {
+            justify-content: flex-end;
+
+            .column {
+                .section-content {
+                    padding: 6rem 0 0 1rem;
+
+                    .about-water__title {
+                        font-size: 3.2rem;
+                        text-transform: uppercase;
+                        font-family: 'Comfortaa';
+                        letter-spacing: 0.225rem;
+                        font-weight: 500;
+                        margin: 0 0 3rem 0;
+                        color: $blue;
+                    }
+
+                    .about-water__description {
+                        padding: 0 1rem 0 0;
+
+                        p {
+                            font-size: 2rem;
+                            line-height: 1.15;
+                            margin: 2.6rem 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .about-water-bg-big {
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 43rem;
+            height: 66rem;
+            top: -1.4rem;
+            left: 10.1rem;
+            z-index: 10;
+        }
+
+        .about-water-small-big {
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 24rem;
+            height: 50rem;
+            position: absolute;
+            top: 20rem;
+            left: -3.8rem;
+            z-index: 10;
+        }
+    }
+}
