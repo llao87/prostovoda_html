@@ -1,0 +1,124 @@
+header {
+  padding: 1.4rem;
+
+  .container {
+    .top-menu {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .offices {
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding: 0.4rem 2.2rem;
+        letter-spacing: 0.025rem;
+        border-right: thin solid $lightGray;
+      }
+
+      .email {
+        color: $textBlack;
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding: 0.4rem 2.2rem;
+        border-right: thin solid $lightGray;
+        letter-spacing: 0.025rem;
+        transition: all 0.3s linear;
+        &:hover {
+          color: $textBlue;
+        }
+      }
+
+      .phone {
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding: 0.4rem 2.2rem;
+        border-right: thin solid $lightGray;
+        transition: all 0.3s linear;
+        &:hover {
+          color: $textBlue;
+        }
+      }
+
+      .search-btn {
+        margin: 0 0 0 2.2rem;
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+
+    .bottom-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0.5rem 0 0 0;
+
+      .logo {
+        width: 21rem;
+        flex: none;
+        margin: -2rem 0 0 0;
+
+        img {}
+      }
+
+      .menu {
+        flex: 1;
+
+        .menu_list {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          list-style: none;
+          padding: 0;
+
+          .menu_item {
+            
+            .menu_link {
+              font-size: 2rem;
+              transition: all 0.3s linear;
+              font-weight: 500;
+
+              &:hover {
+                color: $textBlue;
+              }
+            }
+
+            &:first-child {
+              margin-left: 0;
+            }
+
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+
+      .callback {
+        width: 23rem;
+        margin: -0.3rem 0 0 8.4rem;
+        flex: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex: none;
+          font-weight: 500;
+          font-size: 2rem;
+        }
+
+        .btn--green {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
